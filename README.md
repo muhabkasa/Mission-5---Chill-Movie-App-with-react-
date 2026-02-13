@@ -3,7 +3,7 @@
 Proyek ini merupakan bagian dari tugas Mission 5 Bootcamp HariSenin, yang mencakup implementasi UI (Slicing), Routing, State Management, dan Responsive Design.
 
 ## Demo
-**Link Deploy:** [Masukkan Link Vercel Kamu Di Sini Nanti]
+**Link Deploy:** https://mission-5-chill-movie-app-with-reac.vercel.app/
 
 ---
 
