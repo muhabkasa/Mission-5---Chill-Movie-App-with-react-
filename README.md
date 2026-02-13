@@ -1,16 +1,48 @@
-# React + Vite
+# Chill Movie App - Mission 5
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Proyek ini merupakan bagian dari tugas Mission 5 Bootcamp HariSenin, yang mencakup implementasi UI (Slicing), Routing, State Management, dan Responsive Design.
 
-Currently, two official plugins are available:
+## Demo
+**Link Deploy:** [Masukkan Link Vercel Kamu Di Sini Nanti]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Screenshots
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+|                   Halaman Login                         |                   Halaman Home (Desktop)               |
+| ![Login Page](./src/assets/images/screenshot-login.png) | ![Home Page](./src/assets/images/screenshot-home.png)  |
 
-## Expanding the ESLint configuration
+|                Halaman Daftar Saya                      |                     Tampilan Mobile                        |
+|  ![My List](./src/assets/images/screenshot-mylist.png)  | ![Mobile View](./src/assets/images/screenshot-mobile.png)  |
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Fitur Utama
+1.  **Autentikasi UI**: Halaman Login dan Register yang responsif dengan validasi form sederhana.
+2.  **Homepage Interaktif**:
+    * Hero Section dengan tombol aksi.
+    * Movie Lists (Horizontal Scroll) untuk kategori "Melanjutkan Tonton", "Top Rating", "Trending", dan "Rilis Baru".
+3.  **Fitur Daftar Saya (My List)**:
+    * Halaman khusus /mylist yang menampilkan film tersimpan dalam format Grid.
+4.  **Responsive Design**: Tampilan menyesuaikan secara otomatis untuk Desktop dan Mobile (Navbar, Grid, Layout).
+5.  **Routing**: Navigasi antar halaman tanpa reload menggunakan react-router-dom.
+
+---
+
+## Tech Stack
+* Framework: React JS (Vite)
+* Styling: CSS 3 (Custom CSS, Flexbox, Grid, Media Queries)
+* Routing: React Router DOM v6
+* Version Control: Git & GitHub
+* Deployment: Vercel
+
+---
+
+## Struktur Proyek
+src/
+├── assets/          # Gambar, Ikon, Poster Film
+├── components/      # Komponen Reusable (MovieCard.jsx)
+├── pages/           # Halaman Utama (Login, Register, Home, MyList)
+├── styles/          # File CSS (style.css, home.css, login.css)
+├── App.jsx          # Konfigurasi Route
+└── main.jsx         # Entry Point React
