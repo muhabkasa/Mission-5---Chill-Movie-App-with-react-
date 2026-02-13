@@ -28,11 +28,7 @@ Proyek ini merupakan bagian dari tugas Mission 5 Bootcamp HariSenin, yang mencak
 
 ---
 
-## Struktur Proyek
-src/
-├── assets/          # Gambar, Ikon, Poster Film
-├── components/      # Komponen Reusable (MovieCard.jsx)
-├── pages/           # Halaman Utama (Login, Register, Home, MyList)
-├── styles/          # File CSS (style.css, home.css, login.css)
-├── App.jsx          # Konfigurasi Route
-└── main.jsx         # Entry Point React
+## Buttons
+Login Page : Tombol "Daftar, Masuk"
+Home Page : Tombol "Daftar Saya, Dropdown Menu - Keluar"
+MyList Page : Tombol "Icon Chill Movie App"
