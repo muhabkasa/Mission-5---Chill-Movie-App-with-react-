@@ -7,16 +7,6 @@ Proyek ini merupakan bagian dari tugas Mission 5 Bootcamp HariSenin, yang mencak
 
 ---
 
-## Screenshots
-
-|                   Halaman Login                         |                   Halaman Home (Desktop)               |
-| ![Login Page](./src/assets/images/screenshot-login.png) | ![Home Page](./src/assets/images/screenshot-home.png)  |
-
-|                Halaman Daftar Saya                      |                     Tampilan Mobile                        |
-|  ![My List](./src/assets/images/screenshot-mylist.png)  | ![Mobile View](./src/assets/images/screenshot-mobile.png)  |
-
----
-
 ## Fitur Utama
 1.  **Autentikasi UI**: Halaman Login dan Register yang responsif dengan validasi form sederhana.
 2.  **Homepage Interaktif**:
